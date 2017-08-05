@@ -2,7 +2,7 @@
 // From https://github.com/AthensWorks/gravatar_profiles_page/blob/master/app/scripts/main.js
 
 // Edit at members @ https://gist.github.com/rickychilcott/5332681
-var NAMES_URL = 'https://gist.githubusercontent.com/rickychilcott/5332681/raw/athensworks_members.json';
+var NAMES_URL = '/javascripts/members.json';
 var GRAVATAR_URL = 'https://en.gravatar.com/';
 var COL = "left";
 var users = [];
@@ -20,18 +20,6 @@ var render = function(user) {
 					'</div>' +
 					'<hr />';
 };
-
-/*
-<div class="media">
-  <a class="media-left" href="#">
-    <img src="..." alt="...">
-  </a>
-  <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    ...
-  </div>
-</div>
-*/
 
 $(document).ready(function(){
     $.getJSON(NAMES_URL, function(data){
