@@ -23,6 +23,7 @@ Join us to learn everything food from six organizations, who will talk about the
 When & Where
 ------------
 Saturday, September 9, 2017 at 1:30p
+
 Central Venue at 29 East Carpenter Street in Athens, Ohio
 
 What is Everything Local?
