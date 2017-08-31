@@ -1,18 +1,18 @@
 ---
 layout: page
 title: "Events"
-date: 2015-02-26 22:10
+date: 2017-08-18 14:10
 comments: true
 sharing: true
 footer: true
 ---
 
 
-Everything Local
+[Everything Local](/everything-local)
 ----------------
 *Saturday, September 9, 2017 at 1:30p*
 
-We are hosting a public showcase of projects by local artists, entrepreneurs, crafters, students, researchers, and DIY enthusiasts. We'd like to invite you to attend an afternoon of brief project presentations, mingling, and hors d'oeuvres at Central Venue, right behind Athensworks.
+We are hosting a public showcase of local food organizations to provide a glimpse into Athens’ complex food economy. We’d like to invite you to attend an afternoon of brief presentations, mingling, and hors d’oeuvres at Central Venue, right behind Athensworks.
 
 Questions? Contact [everythinglocal@athensworks.com](mailto:everythinglocal@athensworks.com)
 
