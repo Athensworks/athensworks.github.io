@@ -8,7 +8,9 @@ sharing: true
 footer: true
 ---
 
-We are building a community of people who are doing interesting and creative work in the Athens area. As long as you need a desk, a space, or a conference room to get your work done, we’ve got a space for you. If you have questions, stop by, or get in contact with us.
+We are building a community of people who are doing interesting and creative work in the Athens area. As long as you need a desk, a space, or a conference room to get your work done, we’ve got a space for you.
+
+We’d be happy to arrange for an established member to give you a tour of Athensworks or to get you introduced and settled on your first day. Give us a heads up at info@athensworks.com, and we’ll coordinate with you.
 
 #### [Join Now](https://docs.google.com/a/athensworks.com/spreadsheet/viewform?formkey=dGI4WUlFaE9nZ2xNUjZuVXNGMWlVSXc6MQ)
 
