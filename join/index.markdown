@@ -41,10 +41,7 @@ Rate Table
       </tr>
       <tr>
         <td>Conference Room</td>
-        <td>First Come, First Served (FCFS)</td>
-        <td>FCFS</td>
-        <td>FCFS</td>
-        <td>FCFS</td>
+        <td colspan="4">First come, first served</td>
         <td>$15/hour<br>
         $50/half day<br>
         $80/full day<br>
@@ -52,6 +49,10 @@ Rate Table
         2 hours free!<br>
         $30/half day<br>
         $50/full day<br></td>
+      </tr>
+      <tr>
+        <td>Multipurpose Room</td>
+        <td colspan="5">Variable rates and availability</td>
       </tr>
     </table>
   </div>
