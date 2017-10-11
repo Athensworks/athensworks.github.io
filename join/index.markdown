@@ -25,8 +25,8 @@ Rate Table
         <td>Flex<br>
         (8 days/month)</td>
         <td>Full</td>
-        <td>Not For Profit*</td>
-        <td>Business*</td>
+        <td>Not For Profit&dagger;</td>
+        <td>Business&dagger;</td>
         <td>Non-Member</td>
       </tr>
       <tr>
@@ -58,7 +58,7 @@ Rate Table
   <br/>
 {% endraw %}
 
-*Businesses and Non-Profits can have multiple individuals use seats they have purchased.*
+† *Businesses and Non-Profits can have multiple individuals use seats they have purchased.*
 
 *Ex: An organization with 5 employees pays for 3 seats; all 5 can use the workspace as needed with up to 3 working out of the space at a given time (meetings can include everyone).*
 
