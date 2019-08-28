@@ -57,7 +57,7 @@ Your account will be charged $195 now (for 4 months of membership), and will the
 <br />
 
 
-#### Full Monthly Membership with No Intro ($100/mo
+#### Full Monthly Membership with No Intro ($100/mo)
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -106,7 +106,7 @@ Your account will be charged $300 now (for 4 months of membership), and will the
 <br />
 
 
-#### Nonprofit Fixed Monthly Membership
+#### Nonprofit Fixed Monthly Membership ($65/mo)
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -122,11 +122,41 @@ Your account will be charged $300 now (for 4 months of membership), and will the
 <br />
 
 
-#### Nonprofit Fixed Monthly Membership (3 Seats)
+#### Nonprofit Fixed Monthly Membership - 3 Seats ($195/mo)
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="A8X75FZV6Y9XQ">
+<table>
+<tr><td><input type="hidden" name="on0" value="Your Name / Company Name">Your Name / Company Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+<tr><td><input type="hidden" name="on1" value="Email Address">Email Address</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+</table>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<br />
+
+#### Full Monthly Membership with No Intro - 2 seats ($200/mo)
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="XMJXVUANEXQ4C">
+<table>
+<tr><td><input type="hidden" name="on0" value="Your Name / Company Name">Your Name / Company Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+<tr><td><input type="hidden" name="on1" value="Email Address">Email Address</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+</table>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<br />
+
+#### Full Monthly Membership and Shared Flex Membership - 1 seats + 1 shared seat ($150/mo)
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EBQJDZ7XYZRBC">
 <table>
 <tr><td><input type="hidden" name="on0" value="Your Name / Company Name">Your Name / Company Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
 <tr><td><input type="hidden" name="on1" value="Email Address">Email Address</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
