@@ -18,49 +18,56 @@ Rate Table
 -----
 
 {% raw %}
-  <div class="rate_table">
-    <table>
-      <tr>
-        <td>&nbsp;</td>
-        <td>Flex<br>
-        (8 days/month)</td>
-        <td>Full</td>
-        <td>Not For Profit&dagger;</td>
-        <td>Business&dagger;</td>
-        <td>Non-Member</td>
-      </tr>
-      <tr>
-        <td>Price</td>
-        <td>$65/month<br>
-        <strong>Semester Special: Buy 3 months, get a 4th free!</strong></td>
-        <td>$100/month<br>
-        <strong>Semester Special: Buy 3 months, get a 4th free!</strong></td>
-        <td>$50/month per seat</td>
-        <td>$100/month per seat</td>
-        <td>$10/day</td>
-      </tr>
-      <tr>
-        <td>Conference Room</td>
-        <td colspan="4">First come, first served</td>
-        <td>$15/hour<br>
-        $50/half day<br>
-        $80/full day<br>
-        <strong>Non-Profit:</strong><br>
-        2 hours free!<br>
-        $30/half day<br>
-        $50/full day<br></td>
-      </tr>
-      <tr>
-        <td>Multipurpose Room</td>
-        <td colspan="5">Variable rates and availability</td>
-      </tr>
-    </table>
-  </div>
-  <br/>
+<div class="rate_table">
+  <table>
+    <tr>
+      <td>Membership Type</td>
+      <td>Individual/Business &dagger;</td>
+      <td>Not-for-profit &dagger;</td>
+      <td>Details</td>
+    </tr>
+    <tr>
+      <td>Full-time dedicated desk</td>
+      <td>$150/mo</td>
+      <td>$100/mo</td>
+      <td>unlimited access (other than standard closures, code access) and dedicated desk</td>
+    </tr>
+    <tr>
+      <td>Full-time</td>
+      <td>$120/mo</td>
+      <td>$80/mo</td>
+      <td>unlimited access (other than standard closures, door code access)</td>
+    </tr>
+    <tr>
+      <td>Flex (8-days a month)</td>
+      <td>$75/mo</td>
+      <td>$50/mo</td>
+      <td>8-days a month (other than standard closures, door code access)</td>
+    </tr>
+    <tr>
+      <td>Non-member</td>
+      <td>$20/day</td>
+      <td>$15/day</td>
+      <td>use the space for a day, 9 am - 5 pm</td>
+    </tr>
+    <tr>
+      <td>Conference Room</td>
+      <td colspan="2">First come, first served</td>
+      <td>Non-member rates:<br><br>Individual/Business ($15/hr; $50/half-day; $80/full-day)<br>Not-for-profit: (2 hours free!; $30/half-day; $50/full day)</td>
+    </tr>
+    <tr>
+      <td>Multipurpose Room</td>
+      <td>Variable rates and availability</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<br/>
 {% endraw %}
 
 † *Businesses and Non-Profits can have multiple individuals use seats they have purchased.*
 
-*Ex: An organization with 5 employees pays for 3 seats; all 5 can use the workspace as needed with up to 3 working out of the space at a given time (meetings can include everyone).*
+**Note: All membership types can avail themselves to a 10% discount if you pre-pay for a year at a time.**
 
 #### [Join Now](https://docs.google.com/a/athensworks.com/spreadsheet/viewform?formkey=dGI4WUlFaE9nZ2xNUjZuVXNGMWlVSXc6MQ)
