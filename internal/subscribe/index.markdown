@@ -5,50 +5,63 @@ date: 2013-04-08 14:00
 comments: true
 sharing: false
 footer: true
-plans:
-  # For profit - monthly
-  - name: Day Pass
-    paypal_button_id: M3WHKTLWRJ8UQ
-    cost: 20
-  - name: Flex Monthly Membership
-    paypal_button_id: 2XLCVVGGEUQ26
-    cost: 75
-  - name: Full-time Monthly Membership
-    paypal_button_id: Q4U5GM8UVUUDY
-    cost: 120
-  - name: Full-time Dedicated Monthly Membership
-    paypal_button_id: 6FHGPKLCBJF68
-    cost: 150
+plan_groups:
+  - name: Daily
+    plans:
+    # Daily
+      - name: Day Pass
+        paypal_button_id: M3WHKTLWRJ8UQ
+        cost: 20
 
-  # For profit - annual
-  - name: Flex Annual Membership (with 10% Discount)
-    paypal_button_id: WEEQP2TCCR6YL
-    cost: 810
-  - name: Full-time Annual Membership (with 10% Discount)
-    paypal_button_id: JKEZVU9C9U6EJ
-    cost: 1290
-  - name: Full-time Dedicated Annual Membership (with 10% Discount)
-    paypal_button_id: XE23RHT27VUX6
-    cost: 1620
+  # For profit - Monthly
+  - name: Monthly
+    plans:
+      - name: Flex Monthly Membership
+        paypal_button_id: 2XLCVVGGEUQ26
+        cost: 75
+      - name: Full-time Monthly Membership
+        paypal_button_id: Q4U5GM8UVUUDY
+        cost: 120
+      - name: Full-time Dedicated Monthly Membership
+        paypal_button_id: 6FHGPKLCBJF68
+        cost: 150
+
+  # For profit - Annual
+  - name: Annual
+    plans:
+      - name: Flex Annual Membership (with 10% Discount)
+        paypal_button_id: WEEQP2TCCR6YL
+        cost: 810
+      - name: Full-time Annual Membership (with 10% Discount)
+        paypal_button_id: JKEZVU9C9U6EJ
+        cost: 1290
+      - name: Full-time Dedicated Annual Membership (with 10% Discount)
+        paypal_button_id: XE23RHT27VUX6
+        cost: 1620
 
   # Nonprofit - monthly
-  - name: Day Pass [Nonprofit]
-    paypal_button_id: Y4FNF6DPF5C82
-    cost: 15
-  - name: Flex Monthly Membership [Nonprofit]
-    paypal_button_id: QG6AQNHFBJPMA
-    cost: 50
-  - name: Full-time Monthly Membership [Nonprofit]
-    paypal_button_id: 7AFT2LZV38B38
-    cost: 80
-  - name: Full-time Dedicated Monthly Membership [Nonprofit]
-    paypal_button_id: BLDUABCEEVCCY
-    cost: 100
+  - name: Non-Profit Monthly
+    plans:
+      - name: Day Pass [Nonprofit]
+        paypal_button_id: Y4FNF6DPF5C82
+        cost: 15
+      - name: Flex Monthly Membership [Nonprofit]
+        paypal_button_id: QG6AQNHFBJPMA
+        cost: 50
+      - name: Full-time Monthly Membership [Nonprofit]
+        paypal_button_id: 7AFT2LZV38B38
+        cost: 80
+      - name: Full-time Dedicated Monthly Membership [Nonprofit]
+        paypal_button_id: BLDUABCEEVCCY
+        cost: 100
 ---
 
 *Select a membership level below. Your previous membership has already been canceled.*
+{% for group in page.plan_groups %}
+<h3>{{ group.name }}</h3>
+---
 
-{% for plan in page.plans %}
+{% for plan in group.plans %}
   <h4>{{ plan.name }} - ${{ plan.cost }}</h4>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -61,4 +74,5 @@ plans:
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
   </form>
   <br />
+{% endfor %}
 {% endfor %}
