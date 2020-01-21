@@ -11,3 +11,4 @@ node_modules
 .rbenv-version
 .rvmrc
 _site/
+.jekyll-metadata
