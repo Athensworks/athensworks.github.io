@@ -1,50 +1,50 @@
 <script type="text/javascript">
-// From https://github.com/AthensWorks/gravatar_profiles_page/blob/master/app/scripts/main.js
+  // From https://github.com/AthensWorks/gravatar_profiles_page/blob/master/app/scripts/main.js
 
-// Edit at members @ /members/members.json
-var NAMES_URL = '/members/members.json';
-var GRAVATAR_URL = 'https://en.gravatar.com/';
-var COL = "left";
-var users = [];
+  // Edit at members @ /_data/gravatar_members.yml
+  var NAMES_URL = '/members/members.json';
+  var GRAVATAR_URL = 'https://en.gravatar.com/';
+  var COL = "left";
+  var users = [];
 
-var render = function(user) {
-	console.log(user);
-	if (user.displayName === undefined ) {
-	    return '';
-	}
-	return '<div class="media">' +
-						'<a href="' + user.profileUrl + '" target="_new">' + '<img class="media-left" src="' + user.thumbnailUrl + '"></img></a>' +
-						'<div class="media-body">' +
-							'<h4 class="media-heading">' + user.displayName + '</h4>' +
-							renderAbout(user) +
-						'</div>' +
-					'</div>' +
-					'<hr />';
-};
+  var render = function (user) {
+    console.log(user);
+    if (user.displayName === undefined) {
+      return '';
+    }
+    return '<div class="media">' +
+      '<a href="' + user.profileUrl + '" target="_new">' + '<img class="media-left" src="' + user.thumbnailUrl + '"></img></a>' +
+      '<div class="media-body">' +
+      '<h4 class="media-heading">' + user.displayName + '</h4>' +
+      renderAbout(user) +
+      '</div>' +
+      '</div>' +
+      '<hr />';
+  };
 
-var renderAbout = function(user) {
-	if ( user.aboutMe === undefined ) {
-		return '';
-	}
+  var renderAbout = function (user) {
+    if (user.aboutMe === undefined) {
+      return '';
+    }
 
-	return '<p>' + user.aboutMe + '</p>';
-}
+    return '<p>' + user.aboutMe + '</p>';
+  }
 
-$(document).ready(function(){
-    $.getJSON(NAMES_URL, function(data){
-        users = data;
-				users.map(function(user){
-					$.getJSON(GRAVATAR_URL + user + '.json?callback=?', function(data){
-		    		if(COL === "left") {
-							COL = "right";
-							document.querySelector('.users-left').innerHTML = document.querySelector('.users-left').innerHTML + render(data.entry[0]);
-						} else {
-							COL = "left";
-							document.querySelector('.users-right').innerHTML = document.querySelector('.users-right').innerHTML + render(data.entry[0]);
-						}
-					});
-			});
+  $(document).ready(function () {
+    $.getJSON(NAMES_URL, function (data) {
+      users = data;
+      users.map(function (user) {
+        $.getJSON(GRAVATAR_URL + user + '.json?callback=?', function (data) {
+          if (COL === "left") {
+            COL = "right";
+            document.querySelector('.users-left').innerHTML = document.querySelector('.users-left').innerHTML + render(data.entry[0]);
+          } else {
+            COL = "left";
+            document.querySelector('.users-right').innerHTML = document.querySelector('.users-right').innerHTML + render(data.entry[0]);
+          }
+        });
+      });
     });
-});
+  });
 
 </script>
